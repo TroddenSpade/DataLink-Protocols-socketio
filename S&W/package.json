@@ -1,0 +1,24 @@
+{
+  "name": "datalink-protocols-socketio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TroddenSpade/DataLink-Protocols-socketio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TroddenSpade/DataLink-Protocols-socketio/issues"
+  },
+  "homepage": "https://github.com/TroddenSpade/DataLink-Protocols-socketio#readme",
+  "dependencies": {
+    "socket.io": "^3.1.0",
+    "socket.io-client": "^3.1.0"
+  }
+}
