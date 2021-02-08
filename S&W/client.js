@@ -53,7 +53,7 @@ function received(frame){ // در صورتی که فریمی دریافت شود
         received_index = index // و اندیس دریافتی را برابر ایندس قرار می دهد
     }
     output(frame, str, index) // خروجی دریافت شده را نشان می دهد
-    // if(Math.random() < 0.8)
+    if(Math.random() < 0.3)
         send(1) // و یک اک می فرستد
     
 }
